@@ -17,7 +17,6 @@ const Mail = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           alert('email enviado com sucesso');
         },
         (error) => {

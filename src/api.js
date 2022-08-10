@@ -1,4 +1,4 @@
-const API_URL = 'http://restful-api-portfolio.herokuapp.com/';
+const API_URL = 'https://restful-api-portfolio.herokuapp.com/';
 
 export function USER_GET() {
   return {

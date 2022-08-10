@@ -15,7 +15,6 @@ const Connect = () => {
     // eslint-disable-next-line
   }, []);
 
-  console.log(data);
   if (error) return <FailFetch />;
   if (data)
     return (
