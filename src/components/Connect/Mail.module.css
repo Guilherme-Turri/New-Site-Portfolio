@@ -1,65 +1,62 @@
-form {
-  padding-left: 1.5rem;
- }
-
-.inputData {
-  font-family: 'Quicksand', sans-serif;
-  text-align: left;
-  color: white;
-  width: 100%;
-  border: none;
-  background-color: transparent;
-  border-bottom: 1px solid white;
-  padding-top: 40px;
-  outline: 0;
-}
-label {
-  font-weight: bold;
-  color: #0081a7;
-  display: block;
-  margin-top: 20px;
-}
-
-textarea {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin-top: 20px;
-  width: 388px;
-  height: 171px;
-  background-color: transparent;
-  border: 0.5px solid #ffffff;
-  border-radius: 10px;
-  width: 100%;
-  color: white;
-  box-shadow: none;
-  outline: 0;
-}
-
-.sendBtn {
-  font-family: Quicksand;
-  background-color: #0081a7;
-  border: none;
-  color: #1e2749;
-  width: 66px;
-  height: 28px;
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 10px;
-  margin-bottom: 63px;
-  float: right;
-  margin-top: 15px;
-}
-.sendBtn:hover {
-  background-color: rgba(0, 175, 185, 1);
-}
-
-@media only screen and (max-width: 1128px) {
   .form {
-    margin: 0;
-    padding: 0;
-    width: 90%;
+  
+  margin-right: 2rem;
+  max-width: 600px;
   }
-}
+
+  .inputData {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    color: white;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    padding-top: 40px;
+    outline: 0;
+  }
+  label {
+    font-weight: bold;
+    color: #0081a7;
+    display: block;
+    margin-top: 20px;
+  }
+
+  textarea {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    width: 388px;
+    height: 171px;
+    background-color: transparent;
+    border: 0.5px solid #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    box-shadow: none;
+    outline: 0;
+  }
+
+  .sendBtn {
+    font-family: Quicksand;
+    background-color: #0081a7;
+    border: none;
+    color: #1e2749;
+    width: 66px;
+    height: 28px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 63px;
+    float: right;
+    margin-top: 15px;
+  }
+  .sendBtn:hover {
+    background-color: rgba(0, 175, 185, 1);
+  }
+
+
+
