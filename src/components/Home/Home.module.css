@@ -1,0 +1,71 @@
+  .container{
+    background-color: #363953;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    color: white;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .user{
+  display:flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  line-height:0;
+  margin: 0 0 0 1rem;
+   
+  }
+  .greeting{
+    font-size: 1.5rem;
+  }
+  .name{
+  display: flex;
+  font-size: 4rem;
+ 
+  }
+  .postion{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0081A7 
+  }
+
+.stack span{
+  color: white;
+}
+
+  .img:hover {
+    animation: shake 3s;
+
+  }
+  @keyframes shake {
+
+    20% { transform: skewY(15deg); }
+    60% { transform: skewY(0deg); }
+    70% { transform: skewY(-15deg); }
+    75% { transform: skewY(15deg); }
+    90% { transform: skewY(0deg); }
+    100% { transform: skewY(0deg); }
+  }
+  @media (max-width: 980px)
+{
+  .container{
+    display: flex;
+  }
+  .img
+   {
+    display: none;
+   }
+}
+@media (max-width: 700px)
+{
+  .name{
+    font-size:6vh;
+  }
+
+  .greeting span{
+    font-size:5vh;
+    
+  }
+}

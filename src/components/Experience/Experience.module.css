@@ -1,0 +1,23 @@
+.container{
+  margin-left: 1rem ;
+  margin-top: 1rem ;
+  color:#0081A7;
+  padding-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.title{
+  font-size: 3.75rem;
+  padding: 1rem 0 1rem 0;
+  font-weight: bold;
+}
+
+
+
+
+@media (max-width: 674px)
+{
+  .title{
+    font-size:8.5vw;
+}
+}

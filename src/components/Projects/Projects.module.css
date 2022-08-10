@@ -1,0 +1,50 @@
+.container{
+  margin-top: 1rem ;
+  color:white;
+  padding-top: 1rem;
+  font-size: 1.25rem;
+  background-color: #363953;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-size: 3.75rem;
+  margin: 6rem 0 0 1rem; 
+  font-weight: bold;
+
+ }
+
+ .wrapper{
+ margin: 3rem 0 3rem 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.seeMore{
+  display: flex;
+}
+ 
+@media (max-width: 1112px)
+{
+  .seeMore{
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 880px)
+{
+
+
+  .wrapper{
+display: flex;
+justify-content: center;
+
+
+ }
+
+ .seeMore{
+display: grid;
+justify-content: center;
+width: 100%;
+ }
+}

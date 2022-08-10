@@ -1,0 +1,87 @@
+.container{
+  margin-left: 1rem ;
+  margin-top: 1rem ;
+  color:#0081A7;
+  padding: 1rem 0 1.5rem 0;
+  font-size: 1.25rem;
+}
+.title{
+  font-size: 3.75rem;
+  padding: 1rem 0 1rem 0;
+  font-weight: bold;
+ }
+ .titleAcademic{
+  font-size: 3.75rem;
+  padding: 1rem 0 0 0;
+  font-weight: bold;
+ }
+
+.container  p {
+  color: #363953;
+  font-weight: bold;
+
+}
+.container  span {
+  font-weight: normal;
+}
+
+.accrodionGrid{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+}
+
+.accortionBox{
+  background-color:#363953;;
+  border-radius: 10px;
+  width: 50%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  padding: 2.5rem 0 2.5rem 0;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.6);
+}
+.accortionBox:hover{
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.7);
+}
+
+.accordionTitle{
+display: flex;
+justify-content:space-between;
+margin: 0 1rem ;
+font-weight: bold;
+
+}
+.accordionDetails{
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft .3s forwards;
+  margin-left: 1rem;
+  margin-top: 2rem;
+
+  color: white;
+}
+
+.accordionDetails  p {
+  font-weight: normal;
+  color: white;
+}
+.closeAccordion{
+  display: none;
+}
+
+@keyframes animeLeft{
+  to{
+    opacity: 1;
+    transform:initial;
+  }
+}
+@media (max-width: 642px)
+{
+  .titleAcademic{
+    font-size:9vw;
+}
+.title{
+  font-size: 9vw;
+}
+}
