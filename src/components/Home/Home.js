@@ -9,7 +9,6 @@ import Loading from '../../helper/Loading';
 const Home = () => {
   const { url, options } = USER_GET();
   const { data, error, request, loading } = useGetData();
-  console.log(loading);
 
   React.useEffect(() => {
     request(url, options);
