@@ -4,15 +4,18 @@ import useGetData from '../../hooks/useGetData';
 import styles from './Home.module.css';
 import svg from '../../assets/svg.svg';
 import FailFetch from '../../helper/FailFetch';
+import Loading from '../../helper/Loading';
 
 const Home = () => {
   const { url, options } = USER_GET();
-  const { data, error, request } = useGetData();
+  const { data, error, request, loading } = useGetData();
+  console.log(loading);
 
   React.useEffect(() => {
     request(url, options);
     // eslint-disable-next-line
   }, []);
+  if (loading) return <Loading />;
   if (error) return <FailFetch />;
   if (data)
     return (

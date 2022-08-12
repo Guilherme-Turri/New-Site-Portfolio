@@ -6,6 +6,11 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  min-height: calc(100vh + 2rem);
+}
+
+.AppBody{
+  flex:1
 }
 body{
   font-family: 'Quicksand', sans-serif;
