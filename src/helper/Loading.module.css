@@ -13,7 +13,7 @@
 }
 .spinner{
   opacity: 1;
-    animation: hideshow 1.5s infinite;
+  animation: hideshow 1.5s infinite;
   display: flex;
   justify-content: center;
 }

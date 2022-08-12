@@ -10,7 +10,7 @@ const useGetData = () => {
 
   const request = async (url, options) => {
     setLoading(true);
-    console.log(error);
+
     response = await fetch(url, options);
     if (response.status !== 200) {
       setError(true);
